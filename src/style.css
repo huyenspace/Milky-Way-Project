@@ -1,0 +1,93 @@
+:root {
+  --content-font: "Patrick Hand", cursive;
+  --heading-font: "Righteous", cursive;
+}
+body {
+  background: rgb(5, 0, 51);
+}
+h1 {
+  font-family: var(--heading-font);
+  color: rgb(138, 255, 255);
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+h2 {
+  text-align: center;
+  font-size: 23px;
+  font-family: var(--heading-font);
+  color: rgb(184, 227, 255);
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+div p {
+  font-family: var(--content-font);
+  font-size: 20px;
+  color: rgb(255, 255, 184);
+  line-height: 1.5;
+}
+nav a {
+  font-family: var(--heading-font);
+  color: rgb(5, 0, 51) !important ;
+}
+h2 a {
+  text-decoration: none;
+  color: rgb(255, 36, 80);
+}
+h3 {
+  text-align: center;
+  margin-bottom: 150px;
+}
+h3 a {
+  text-decoration: none;
+  font-family: var(--content-font);
+  color: rgb(255, 255, 184);
+  transition: all 200ms ease-in-out;
+}
+h3 a:hover {
+  text-decoration: underline;
+  color: rgb(255, 36, 80);
+}
+.homepage-picture {
+  max-width: 100%;
+  border: 2px solid rgb(255, 255, 184);
+  border-radius: 4px;
+}
+.btn-decoration {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.btn-decoration a {
+  text-decoration: none;
+  color: rgb(5, 0, 51);
+  font-family: var(--content-font);
+  font-size: 24px;
+  padding: 10px 20px;
+  background: rgb(184, 227, 255);
+  border-radius: 20px;
+  transition: all 200ms ease-in-out;
+}
+.btn-decoration a:hover {
+  color: orange;
+  background: rgb(255, 255, 184);
+}
+hr {
+  border: 1px solid whitesmoke;
+}
+.footer {
+  text-align: center;
+  font-size: 22px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 36, 80);
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.collection-picture {
+  max-width: 100%;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+}
